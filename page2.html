@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <div class="center">
+            <div class="logo">
+              <img class="logo" src="./image/logoveit.png" alt="logoveitfinancas">
+            </div>
+            <div class="menu">
+              <a href="index.html"> Home </a>
+              <a href="#sobre-veit"> Sobre Nós </a>
+              <a href="#"> + Depoimentos </a>
+              <a href="page2.html"> Contato </a>
+            </div>
+            <div class="menu-mobile"> 
+                <span class="menu-mobile-icon"> <i class="material-icons">menu</i></span>
+                <div class="menu-items">
+    
+                    <a href="index.html">Home</a>
+                    <a href="#sobre-veit">Sobre nós</a>
+                    <a href="#"> + Depoimentos </a>
+                    <a href="page2.html">Contatos</a>
+                    <a href="#sobre-cursos"> Cursos </a>
+    
+    
+                </div>
+    
+            </div>
+          </div>
+    </header>  
+    <article class="art-page2">
+        <section class="login">
+                <div class="formulário">
+                <h1 class="titulo-forms"> Cadastre-se </h1>
+                <p class="p-forms">Envie uma mensagem ou entre em contato com a gente pelo email: <strong>greicyellem.ferreira@al.infnet.edu.br</strong></p>
+                <form action="https://getform.io/f/93b1296d-bb19-4215-8c26-48f85bbd9c88" method="post" autocomplete="on">
+                    <div class="campo"> 
+                        <i class="material-icons">person</i>
+                        <input class="input" type="text" name="Nome" id="name" placeholder="Seu nome" autocomplete="name" required>
+                        <label for="name"></label> 
+                    </div>
+                    <div class="campo"> 
+                        <i class="material-icons">mail</i>
+                        <input class="input" type="text" name="E-mail" id="email" placeholder="Seu email" autocomplete="email" required>
+                        <label for="email"></label> 
+                    </div>
+                    <div class="campo"> 
+                        <i class="material-icons">call</i>
+                        <input class="input" type="text" name="Telefone" id="Telefone" placeholder="Seu telefone" autocomplete="telefone" required>
+                        <label for="telefone"></label> 
+                    </div>                
+                    <div class="campo"> 
+                        <i class="material-icons">message</i>
+                        <input class="input" textarea id="mensagem" name="Mensagem" placeholder="Deixe sua mensagem" rows="30" cols="50"> </textarea>
+                        <label for="mensagem"></label> 
+                    </div>
+                    <div class="campo-radio"> 
+                        <i class="material-icons">savings</i>
+                        <legend>Você já investe?</legend>
+                        <input type="radio" name="investe" value="Sim" required></radio>
+                        <label for="genger"> Sim </label>
+                        <input type="radio" name="investe" value="Não" required></radio>
+                        <label for="genger"> Não </label> 
+                    </div>    
+                    <input class="enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </article>
+    <footer class="rodape">
+       <img class="rodape-imagem" src="./image/LOGOVEIT.png"> 
+       <span> "O melhor investimento que você pode fazer é em conhecimento!" </span>
+ 
+       <div class="copy"> (Copyright ©️ 2023)</div>     
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
