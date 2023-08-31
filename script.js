@@ -17,10 +17,12 @@ else {
 const imagemDoBanner = document.getElementById('sobre-cursos');
 
 const dadosDoBanner = [
-    {image: './image/woman.jpg'},
-    {image: './image/woman1.jpg'},
-    {image: './image/woman2.jpg'},
-    {image: './image/woman3.jpg'}
+    {image: './image/banner.jpg'},
+    {image: './image/banner1.jpg'},
+    {image: './image/banner2.jpg'},
+    {image: './image/banner5.jpg'},
+    {image: './image/banner4.jpg'}
+
 ];
 let indiceBannerAtual = 0;
 
